@@ -1,0 +1,123 @@
+    1  git config --global user.name "Will Knisley"
+    2  git config --global user.email willmknisley@gmail.com
+   10  git clone git@github.com:porterjenkins/CS180.git
+   11  git clone github.com/porterjenkins/CS180
+   12  git clone https://github.com/porterjenkins/CS180
+   13  git@github.com:porterjenkins/CS180.git
+   15  git clone <https://github.com/BYUCS235
+   16  git clone <https://github.com/BYUCS235/cs235-assignments/tree/main
+   17  git clone <https://github.com/BYUCS235/cs235
+   18  git clone <https://github.com/BYUCS235/cs235-assignments
+   19  git clone git@github.com:BYUCS235/cs235-assignments.git
+   20  git clone https://github.com/BYUCS235/cs235-assignments
+   21  git clone https://github.com/BYUCS235/cs235-assignments.git
+   22  git clone https://github.com/BYUCS235/cs235-assignments.git
+   60  git clone https://github.com/dracula/terminal-app.git
+   61  git --version
+   62  git config --global user.name Will
+   63  git config --global user.name "Will"
+   64  git config -- global user.email willmknisley@gmail.com
+   65  git config -- global user.email "willmknisley@gmail.com"
+   66  git config --global user.email "willmknisley@gmail.com"
+   67  git config --global init.defaultBranch main
+   68  git --version
+   75  git status
+   76  cd git-practice
+   77  mkdir git-practice
+   78  cd git-practice
+   79  git status
+   80  git init
+   83  cd git-practice
+   87  git status
+   88  git add .
+   90  git status
+   91  git commit -m 'Add file1.txt'
+   93  git status
+   94  git log
+   95  touch .gitignore
+   99  git status
+  100  git add .
+  101  git status
+  103  git status
+  104  git commit -m 'updated gitignore'
+  105  git status
+  107  git remote add origin <github.com/willknisley/stat386>
+  108  git remote add origin https://github.com/willknisley/stat386
+  109  git push -u origin main
+  112  git remote add origin https://github.com/willknisley/stat386-will
+  113  git remote-v
+  114  git remote -v
+  125  mkdir git-practice-willknisley
+  126  cd git-practice-willknisley
+  128  git init
+  139  git commit .
+  140  git commit file_1.txt
+  141  git add .
+  143  git status
+  144  git commit -m "create new files"
+  145  git log
+  146  git status
+  147  git add file_1.txt
+  148  git commit -m "added text"
+  149  git add file_2.txt
+  150  git commit -m "added text again"
+  151  git log
+  153  git add .
+  154  git commit -m "created readme"
+  155  touch .gitignore
+  156  git add .
+  157  git commit -m "created gitignore"
+  159  git status
+  160  git status
+  161  git checkout -b features
+  162  git log
+  164  git add .
+  165  git commit -m "add empty file"
+  166  git commit -m "added description"
+  167  git add .
+  168  git commit -m "added description to new_features"
+  169  git switch main
+  171  git add
+  172  git add .
+  173  git commit -m "added text to file_1"
+  174  git merge features
+  178  cd git-practice-willknisley
+  180  git log
+  181  git log
+  182  git add .
+  183  git commit -m "changed new_features"
+  185  git log
+  186  git switch features
+  188  git add .
+  189  git commit -m "new edit for new_features"
+  190  git switch main
+  191  git merge features
+  192  git add .
+  193  git commit -m "resolve merge conflict"
+  195  git rm features
+  196  git branch -d features
+  197  git remote add origin https://github.com/willknisley/git-practice-willknisley.git
+  198  git push -u origin main
+  199  git repo fork https://github.com/Zach-321/lab1prac-Zach-321
+  200  gh repo fork https://github.com/Zach-321/lab1prac-Zach-321
+  201  git clone https://github.com/willknisley/lab1prac-Zach-321.git
+  202  git branch -b feature-willknisley
+  203  git branch feature-willknisley
+  205  git add .
+  206  git commit -m "add file"
+  207  git push origin feature-willknisley
+  211  git branch feature-willknisley
+  213  git log
+  214  git switch feature-willknisley
+  218  git add .
+  219  git commit -m "add example.txt with text"
+  220  git push origin feature-willknisleu
+  221  git push origin feature-willknisley
+  222  git pull
+  225  cd git-practice-willknisley
+  226  git pull
+  228  cd git-practice-willknisley
+  230  git pull
+  234  cd git-practice-willknisley
+  236  git log --oneline > gitlog.txt
+  237  history | grep git > history.txt

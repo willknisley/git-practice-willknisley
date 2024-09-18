@@ -1,0 +1,15 @@
+2f6d501 Merge branch 'main' of https://github.com/willknisley/git-practice-willknisley
+c28c9c9 Merge pull request #1 from Zach-321/feature-Zach-321
+9c665c9 added new file
+6d4c63d add file
+a10fdfb resolve merge conflict
+8f4fe02 new edit for new_features
+a24cbf1 changed new_features
+400c1e7 added text to file_1
+a2eb50f added description to new_features
+0b6417a add empty file
+a7109a9 created gitignore
+05047d8 created readme
+1f737cf added text again
+9f18695 added text
+422b99b create new files
